@@ -7,45 +7,47 @@ from os import path
 class main(cmd.Cmd):
     print("Welcome to our address book app. type HLP [<command name>] for help")
 
-    # program doesn't check for invalid calls with wrong number of parameters, wrong parameter types, etc
     # create admin account
-
+    
+    # user wants a list of commands
     def do_HLP(self, command):
         help_command(command)
 
+    # user is logging in
     def do_LIN(self, line):
         splitline = line.split(" ")
         if len(splitline) == 2:
             database.login(splitline[0], splitline[1])
         else:
             print("Usage: LIN <userID> <password>")
+    # user wants to logout
     def do_LOU(self, line):
         database.logout()
-
+    # user wants to change password
     def do_CHP(self, line):
         database.change_password(line)
-
+    # user wants to add an account
     def do_ADU(self, line):
         database.add_account(line)
-
+    # user wants to delete an account
     def do_DEU(self, line):
         database.delete_account(line)
-
+    # user wants to display the audit log
     def do_DAL(self, line):
         database.display_audit_log(line)
-
+    # user wants to add a record
     def do_ADR(self, line):
         database.add_record(line)
-
+    # user wants to delete a record
     def do_DER(self, line):
         database.delete_record(line)
-
+    # user wants to edit a record
     def do_EDR(self, line):
         database.edit_record(line)
-
+    # user wants to read a record
     def do_RER(self, line):
         database.read_record(line)
-
+    # user wants to import a database from a file
     def do_IMD(self, line):
         if database.active_user == 0:
             print("No active login session")
@@ -76,7 +78,7 @@ class main(cmd.Cmd):
                     print("Database imported")
             else:
                 print("couldn't find file: " + line)
-
+    # user wants to export the database to a file
     def do_EXD(self, line):
         if database.active_user == 0:
             print("No active login session")
@@ -91,8 +93,9 @@ class main(cmd.Cmd):
             pickle.dump(database.active_user.contacts, storageFile)
             storageFile.close()
             print("Database exported")
-
+    # user wants to exit the program
     def do_EXT(self, line):
+        # logs you out before exiting
         database.logout()
         storageFile = open('DatabaseStorage', 'wb')
         storageFile.seek(0)
