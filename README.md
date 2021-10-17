@@ -66,30 +66,30 @@ This section demonstrates the Address Book Machine’s most prominent features a
 ### 4.1 Add an Address
 Users will be able to add a new address to their stored address book. </br>
 
-Through access to the on-screen terminal, users will add a new address to their address book.This is of high priority as it is one of the main functions of the machine. This is done by typing the command “ADD <name>,<address>”</br>
+Through access to the on-screen terminal, users will add a new address to their address book.This is of high priority as it is one of the main functions of the machine. This is done by typing the command “ADD {name},{address}”</br>
 
 Example of adding an address: </br>
 ADD Brenton Kearney, 5998 Alcala Park Way</br>
-New address added successfully.</br>
+New address added successfully.
 
 ### 4.2 Edit an Address
 
 Users will be able to edit an existing address in their stored address book. </br>
 
-Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “EDIT <name>, <new address information>”. If an address under that name does not exist the user will be notified.</br>
+Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “EDIT {name}, {new address information}”. If an address under that name does not exist the user will be notified.</br>
 
 Example of editing an address:</br>
-	EDIT Justin Cavalli, 5997 Alcala Park Way
+	EDIT Justin Cavalli, 5997 Alcala Park Way</br>
 	Address updated successfully
 
 ### 4.3 Delete an Address
 
 Users will be able to delete an existing address in their stored address book.</br>
 
-Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “DEL <name>”. If an address under that name does not exist, the user will be notified.</br>
+Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “DEL {name}”. If an address under that name does not exist, the user will be notified.</br>
 
 Example of editing an address:</br>
-	DEL Noelle Tuchscherer
+	DEL Noelle Tuchscherer</br>
 	Address deleted successfully
 
 
@@ -100,8 +100,8 @@ Users will be able to print out all of their addresses to the terminal.</br>
 Through access to the on-screen terminal, users will be able to print all of their stored addresses to the terminal. This is a high priority function of the machine. This is done by typing the command “DUMP”.</br>
 
 Example of printing out user addresses:</br>
-	DUMP
-	Rachel Valdez, 5994 Alcala Park Way
+	DUMP</br>
+	Rachel Valdez, 5994 Alcala Park Way</br>
 	Mark Heckman, BEC 318
 
 
@@ -109,19 +109,19 @@ Example of printing out user addresses:</br>
 
 Users will be able to access their stored address book remotely from their own devices.</br>
 
-Users can access their address book information by logging in remotely through either wifi connection or over the cellular network. This is a high priority function of the machine. This is done by logging in remotely on the Address Book Machine app on one’s computer or cell phone.</br>
+Users can access their address book information by logging in remotely through either wifi connection or over the cellular network. This is a high priority function of the machine. This is done by logging in remotely on the Address Book Machine app on one’s computer or cell phone.
 
 
 ### 4.6 Add a new account
 
 The administrator will be able to add a new login account for a new user.</br>
 
-The administrator only has the privileges to create a new account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “NACC” followed by the new user typing “<username>,<password>”.</br>
+The administrator only has the privileges to create a new account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “NACC” followed by the new user typing “{username},{password}”.</br>
 
 Example of adding an account:</br>
-	NACC
-	Enter your username,password below:
-	myUsername,myPassword
+	NACC</br>
+	Enter your username,password below:</br>
+	myUsername,myPassword</br>
 	New account created successfully
 
 
@@ -129,10 +129,10 @@ Example of adding an account:</br>
 
 The administrator will be able to delete an existing account of a user.</br>
 
-The administrator only has the privileges to delete an existing account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “DACC,<name of user>”</br>
+The administrator only has the privileges to delete an existing account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “DACC,{name of user}”</br>
 
 Example of deleting an account:</br>
-	DACC,Abdulqader Koshak
+	DACC,Abdulqader Koshak</br>
 	New account deleted successfully
 
 
