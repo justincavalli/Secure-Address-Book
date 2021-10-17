@@ -69,8 +69,8 @@ Users will be able to add a new address to their stored address book. </br>
 Through access to the on-screen terminal, users will add a new address to their address book.This is of high priority as it is one of the main functions of the machine. This is done by typing the command “ADD {name},{address}”</br>
 
 Example of adding an address: </br>
-ADD Brenton Kearney, 5998 Alcala Park Way</br>
-New address added successfully.
+&nbsp;&nbsp;&nbsp;&nbsp;ADD Brenton Kearney, 5998 Alcala Park Way</br>
+&nbsp;&nbsp;&nbsp;&nbsp;New address added successfully.
 
 ### 4.2 Edit an Address
 
@@ -79,8 +79,8 @@ Users will be able to edit an existing address in their stored address book. </b
 Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “EDIT {name}, {new address information}”. If an address under that name does not exist the user will be notified.</br>
 
 Example of editing an address:</br>
-	EDIT Justin Cavalli, 5997 Alcala Park Way</br>
-	Address updated successfully
+	&nbsp;&nbsp;&nbsp;&nbsp;EDIT Justin Cavalli, 5997 Alcala Park Way</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Address updated successfully
 
 ### 4.3 Delete an Address
 
@@ -89,8 +89,8 @@ Users will be able to delete an existing address in their stored address book.</
 Through access to the on-screen terminal, users will edit an existing address from the address book. This is a high priority function of the machine. This is done by typing the command “DEL {name}”. If an address under that name does not exist, the user will be notified.</br>
 
 Example of editing an address:</br>
-	DEL Noelle Tuchscherer</br>
-	Address deleted successfully
+	&nbsp;&nbsp;&nbsp;&nbsp;DEL Noelle Tuchscherer</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Address deleted successfully
 
 
 ### 4.4 View all of the user’s addresses
@@ -100,9 +100,9 @@ Users will be able to print out all of their addresses to the terminal.</br>
 Through access to the on-screen terminal, users will be able to print all of their stored addresses to the terminal. This is a high priority function of the machine. This is done by typing the command “DUMP”.</br>
 
 Example of printing out user addresses:</br>
-	DUMP</br>
-	Rachel Valdez, 5994 Alcala Park Way</br>
-	Mark Heckman, BEC 318
+	&nbsp;&nbsp;&nbsp;&nbsp;DUMP</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Rachel Valdez, 5994 Alcala Park Way</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Mark Heckman, BEC 318
 
 
 ### 4.5 Access the database remotely
@@ -119,10 +119,10 @@ The administrator will be able to add a new login account for a new user.</br>
 The administrator only has the privileges to create a new account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “NACC” followed by the new user typing “{username},{password}”.</br>
 
 Example of adding an account:</br>
-	NACC</br>
-	Enter your username,password below:</br>
-	myUsername,myPassword</br>
-	New account created successfully
+	&nbsp;&nbsp;&nbsp;&nbsp;NACC</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;Enter your username,password below:</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;myUsername,myPassword</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;New account created successfully
 
 
 ### 4.7 Delete an existing account
@@ -132,8 +132,8 @@ The administrator will be able to delete an existing account of a user.</br>
 The administrator only has the privileges to delete an existing account with access to the Address Book Machine. This is a high priority function of the machine. This is done by the administrator typing “DACC,{name of user}”</br>
 
 Example of deleting an account:</br>
-	DACC,Abdulqader Koshak</br>
-	New account deleted successfully
+	&nbsp;&nbsp;&nbsp;&nbsp;DACC,Abdulqader Koshak</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;New account deleted successfully
 
 
 ## 5. Other Nonfunctional Requirements
